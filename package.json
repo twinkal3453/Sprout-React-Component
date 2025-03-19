@@ -1,5 +1,5 @@
 {
-  "name": "Sprout React Component",
+  "name": "sprout-react-component",
   "version": "1.0.0",
   "description": "A React component library",
   "main": "dist/index.js",
