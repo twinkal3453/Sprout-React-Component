@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "ESNext",
+      "target": "ES6",
+      "declaration": true,
+      "jsx": "react-jsx",
+      "jsxImportSource": "react",
+      "moduleResolution": "bundler",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["src"]
+  }

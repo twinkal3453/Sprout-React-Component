@@ -1,0 +1,42 @@
+{
+  "name": "Sprout React Component",
+  "version": "1.0.0",
+  "description": "A React component library",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "echo \"No tests configured\" && exit 0",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui-library"
+  ],
+  "author": "Twinkal Raj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twinkalBmvsi/sprout-react-components.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.36.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
